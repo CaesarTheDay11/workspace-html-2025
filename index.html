@@ -38,23 +38,68 @@
 			</marquee>
 			<!-- This is a test of the heading size as seen -->
 		</div>
+<div class="practice">
+			<h2>August 27 practice</h2>
+			<ul> Unordered List
+				<li>
+					item 1
+				</li>
 
+				<li>
+					item 2
+				</li>
+
+
+			</ul>
+
+			<ol>Ordered List
+				<li>
+					item 1
+				</li>
+
+				<li>
+					item 2
+				</li>
+			</ol>
+
+			<ul> Combo Wombo
+				<li>
+					Item 1
+				</li>
+
+				<li>
+					Item 2
+					<ol>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4
+							<ul>
+								<li>item 1</li>
+								<li>item 2</li>
+								<li>item 3</li>
+							</ul>
+						</li>
+						<li>item 5</li>
+					</ol>
+				</li>
+			</ul>
 
 		<div class="practice">
 			<marquee behavior="scroll" direction="right">
 			<ol> 
         <li>Inline Elements
             <ul>
-            <li><img></li>
-            <li><br></li>
-            <li><strong></li>
+            <li>&lt;img&gt;</li>
+            <li>&lt;br&gt;</li>
+            <li>&lt;strong&gt;</li>
             </ul>
         </li>
         <li>Block Level Elements
             <ul>
-                <li><ol></li>
-                <li><li></li>
-                <li><header></li>
+                <li>&lt;ol&gt;</li>
+                <li>&lt;li&gt;</li>
+                <li>&lt;header&gt;</li>
             </ul>
         </li>
     </ol>
@@ -67,8 +112,223 @@
 				<p>This is scrolling text for a computer utilizing a marquee text and the scroll behavior</p>
 			</marquee>
 		</div>
+		<div class="practice">
+			<marquee behavior="scroll" direction="left">
+				<h1>September 3rd</h1>
+				<p></p>
+				<a href="https://www.google.com"> 
+					<img src="img/google.png" alt="Placeholder Image" /> 
+				</a> 
+				<a href="https://www.facebook.com"> 
+					<img src="img/facebook.png" alt="Placeholder Image" /> 
+				</a> 
+				<table border = "1"> 
+					<tr> 
+						<th>Date</th>
+						<th>Topic</th>
+						<th>Assignment</th>
+					</tr>
+					<tr> 
+						<td>09/05</td>
+						<td>HTML Basics</td>
+						<td>Read Chapter 1</td>
+					</tr>
+					<tr> 
+						<td rowspan="2">09/12</td>
+						<td>Veterinarian assistance 145</td>
+						<td><img src="img/puppy.jpg" alt="puppy" width="100" /></td>
+					</tr>
+					<tr> 
+						<td>JavaScript Basics</td>
+						<td>Read Chapter 3</td>
+					</tr>
+					<tr> 
+						<td colspan="3">1</td>
+					</tr>
+				</table>
 
+				
+			</marquee>
+		</div>
+		<table border="1">
+			<tr>
+				<th colspan="4">Temperature Distribution in Jan - Apr 2015 (°F)</th>
+			</tr>
+
+			<tr>
+				<td>Month</td>
+				<td>High</td>
+				<td>Low</td>
+				<td>Average</td>
+			</tr>
+			
+			<tr>
+				<td>January</td>
+				<td>48</td>
+				<td>36</td>
+				<td>40</td>
+			</tr>
+			
+			<tr>
+				<td>February</td>
+				<td>49</td>
+				<td>37</td>
+				<td rowspan="2">43</td>
+			</tr>
+			
+			<tr>
+				<td>March</td>
+				<td>52</td>
+				<td>39</td>
+			</tr>
+			<tr>
+				<td>April</td>
+				<td>58</td>
+				<td>43</td>
+				<td>47</td>
+			</tr>
+		</table>
+		<div id="practice">
+		<!-- september 8th -->
+			<form action="" name="inclass1">
+				<p><b>Login Form:</b></p>
+				<input type="text" name="username" placeholder="Enter your name" maxlength="20">
+				<input type="password" name="password" placeholder="Enter your password" minlength="8" maxlength="20">
+				
+			<br>
+				<label> <input name="Remember" type="checkbox" name="remember" value="Remember"> Remember me</label>
+				<label> <input name="donate" type="checkbox" checked value="Donate"> Donate $50</label>
+			<br>
+				<p>Select your favorite browser:</p>
+				<label> <input name="Browser" type="checkbox" value="Chrome"> Chrome</label>
+				<label> <input name="Browser" type="checkbox" value="Firefox"> Firefox</label>
+				<label> <input name="Browser" type="checkbox" value="Safari"> Safari</label>
+			<br>
+			<br>
+				<label for="male">Male</label>
+				<input id="male" type="radio" name="gender" value="male"> 
+				<label for="female">Female</label>
+				<input id="female" type="radio" name="gender" value="female">
+			<br>
+			<br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">				
+			</form>
+
+			<form action="" name="inclass2">
+				<p><b>Music Form:</b></p>
+				<label for="username">Username:</label>
+				<input type="text" name="username" placeholder="Enter your name" maxlength="20">
+				<label for="password">Password:</label>
+				<input type="password" name="password" placeholder="Enter your password" minlength="8" maxlength="20">
+				
+			<br>
+				<p>Select your favorite Music:</p>
+				<label> <input name="Platform" type="checkbox" value="Itunes"> Itunes</label>
+				<label> <input name="Platform" type="checkbox" value="Last.fm"> Last.fm</label>
+				<label> <input name="Platform" type="checkbox" value="Spotify"> Spotify</label>
+			<br>
+			<br>
+				<input id="Rock" type="radio" name="Music" value="Rock"> 
+				<label for="Rock">Rock</label>				
+				<input id="Pop" type="radio" name="Music" value="Pop">
+				<label for="Pop">Pop</label>				
+				<input id="Jazz" type="radio" name="Music" value="Jazz">
+				<label for="Jazz">Jazz</label>
+			<br>
+				<label for="Record">Upload a sample of your music:</label>
+				<br>
+				<input id="Record" type="file" name="Record" value="file">
+				<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+			<br>
+			<br>
+			<label for="button">Click Below</label>
+			<br>
+			<input id="button" type="button" value="Click Me" onclick="alert('Hello! Welcome to the Music Form')">
+			<br>
+			<br>
+			<button onclick="alert('Hello! Welcome to the Music Form')">Click Me</button>
+			<br>
+			<br>
+			<textarea name="comment" id="comment" rows="5" cols="30"> 
+				Enter your comments here...
+			</textarea>
+			<br>
+			<br>
+			<p> Pick the OS
+				<select name="OS" size="3"  multiple>
+					<option value="Windows">Windows</option>
+					<option value="Mac">Mac</option>
+					<option value="Linux">Linux</option>
+				</select>
+			</p>
+			<br>
+			<br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">				
+			</form>
+		</div>
+		<div class="practice"> 
+    		<h2>Practice Assignments</h2>
+			<!-- September 10th-->
+	 			<a href="img/add.gif">September 10th link</a>
+	 			<br>
+				<p> Enter your comments here:</p>
+				<textarea name="comment" rows="4" cols="50"></textarea>
+		</div>
+		<div class="practice">
+			<h2>Practice Assignments</h2>
+			<!-- September 10th-->
+			 <button onclick="alert('Hello! Welcome to the Button')">
+				<img src="img/add.gif" alt="September 10th">
+				<img src="img/facebook.png" alt="September 10th">
+				<p>Click Me! <br>
+				e3124R3AT5SY6DU7FI8
+				</p>
+			 </button>
+
+
+			 <form>
+				<fieldset>
+					<legend>Comments</legend>
+					<p> Enter your comments here:</p>
+					<input type="color" name="favcolor" value="#ff0000" autofocus length="200", width="1000">
+					<br>
+					<input type="date">
+					<p>
+					Email (Req)<sup>*</sup><input type="email" placeholder="name@domain.com" required />
+					</p>
+					<input type="tel" placeholder="(###)-###-####" pattern="^\(\d{3}\)-\d{3}-\d{4}$" />
+					<br>
+					<input type="submit" value="Submit">
+				</fieldset>
+				</form>
+				<form>
+				<fieldset>
+					<legend>Comments</legend>
+					<p> Enter your comments here:</p>
+					<input type="text" name="Firstname" placeholder="First Name" required>
+					<input type="text" name="Lastname" placeholder="Last Name" required>
+					<br>
+					<input type="email" placeholder="name@domain.com" required />
+					<br>
+					<input type="tel" placeholder="(###)-###-####" pattern="^\(\d{3}\)-\d{3}-\d{4}$" />
+					<br>
+					<input type="text" name="password" placeholder="Password" required minlength="8" maxlength="20">
+					<br>
+					<p> birthday</p>
+					<input type="date" name="birthday" required>
+					<input type="submit" value="Submit">
+					<input type="radio" name="gender" value="male" required> Male
+					<input type="radio" name="gender" value="female" required> Female				</fieldset>
+			 </form>
+		</div>
+		<div id="footer">
+			<p>&copy; 2025 HTML5 Daily Practice</p>
+		</div>
 	</div>
+	
+
 
 	<script type="text/javascript" src="index.js"></script>
 </body>
